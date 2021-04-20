@@ -515,7 +515,7 @@ nav ul li a {
 
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
-  bottom: 20px;
+  bottom: 52%;
 }
 
 /*--------------------------------------------------------------
