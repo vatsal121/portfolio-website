@@ -81,6 +81,16 @@
       typeSpeed: 100,
       loop: true,
     });
+
+    var strings1 = $('.typed-items-skills').text();
+    strings1 = $('.typed-items-skills').data('typed-skills') + ',' + strings1;
+    strings1 = strings1.split(',');
+
+    typed.typed({
+      strings: strings1,
+      typeSpeed: 100,
+      loop: true,
+    });
   });
 
   // ========================================================================= //
