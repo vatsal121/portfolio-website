@@ -82,12 +82,12 @@
       loop: true,
     });
 
-    var strings1 = $('.typed-items-skills').text();
-    strings1 = $('.typed-items-skills').data('typed-skills') + ',' + strings1;
-    strings1 = strings1.split(',');
+    var skillsText = $('.typed-items-skills').text();
+    skillsText = $('.typed-items-skills').data('typed-skills') + ',' + skillsText;
+    skillsText = skillsText.split(',');
 
     typed.typed({
-      strings: strings1,
+      strings: skillsText,
       typeSpeed: 100,
       loop: true,
     });
