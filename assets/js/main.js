@@ -82,11 +82,12 @@
       loop: true,
     });
 
+    var skillsTyped=$(".skillsTyped");
     var skillsText = $('.typed-items-skills').text();
     skillsText = $('.typed-items-skills').data('typed-skills') + ',' + skillsText;
     skillsText = skillsText.split(',');
 
-    typed.typed({
+    skillsTyped.typed({
       strings: skillsText,
       typeSpeed: 100,
       loop: true,
